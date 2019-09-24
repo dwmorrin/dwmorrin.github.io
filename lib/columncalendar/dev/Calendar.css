@@ -1,0 +1,44 @@
+.calendar__th {
+  border:1pt solid black;
+  font-size:large;
+  font-weight:bold;
+  text-align:center;
+  vertical-align:middle;
+  width:20%;
+}
+
+.calendar__td {
+  padding: 0;
+  vertical-align: top;
+}
+
+.calendar__td:first-child {
+  width: 20px;
+}
+
+.calendar__pointer {
+  border-bottom:1pt solid red;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  z-index: 4;
+}
+
+.calendar__event {
+  border:1pt solid black;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+}
+
+.calendar__hour {
+  border-top: 1pt solid #AAAAAA;
+  padding: 0;
+}
+
+.calendar__table {
+  margin-top:10px;
+  table-layout: fixed;
+  width:100%;
+}
