@@ -9,3 +9,7 @@
 ```
 Column Calendar
 * Dev - unstable releases
+
+Last Updates:
+* Fixed colors
+* Fixed event mutation (offsetting bug)
