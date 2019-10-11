@@ -8,4 +8,4 @@
 |______| |__| |__||_|   |_||_______||___|  |_||___|  |_||___| |_|  |__|
 ```
 Column Calendar
-  Dev
+* Dev - unstable releases
