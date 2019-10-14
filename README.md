@@ -13,3 +13,4 @@ Column Calendar
 Last Updates:
 * Fixed colors
 * Fixed event mutation (offsetting bug)
+* Event colors
