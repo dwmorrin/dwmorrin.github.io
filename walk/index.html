@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Walk</title>
 </head>
+
 <body>
- <canvas width="1000" height="600"></canvas> 
- <script src="walk.js"></script>
+  <canvas width="1000" height="600"></canvas>
+  <br />
+  <input name="speed" type="range" max="1000" min="100" step="1" value="500" />
+  Speed
+  <br />
+  <input name="segments" type="range" max="10" min="2" step="1" value="4" />
+  Segments
+  <br />
+  <input type="checkbox" checked />
+  Blanking
+  <script src="walk.js"></script>
 </body>
+
 </html>
